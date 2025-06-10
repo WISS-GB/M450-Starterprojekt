@@ -14,6 +14,12 @@ public class Item {
     private Integer id;
     private String name;
 
+    public Item(){ }
+
+    public Item(String itemName) {
+        this.name = itemName;
+    }
+
     public Integer getId() {
         return id;
     }
