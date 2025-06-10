@@ -1,11 +1,17 @@
 import AddItem from "./components/AddItem";
 import ItemList from "./components/ItemList";
 
+
+
 function App() {
   return (
     <>
-      <AddItem />
-      <ItemList />
+      <section className="py-4">
+        <AddItem />
+      </section>
+      <section>
+        <ItemList />
+      </section>
     </>
   );
 }
