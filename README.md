@@ -9,7 +9,7 @@ Die Applikation ist bereits in Front- sowie Back-End implementiert und für eine
 
 ## wichtige Verzeichnisse
 
-| Ordner      | Beschreibung                                                 |
-| ----------- | ------------------------------------------------------------ |
-| /docs       | Enthält die vollständige Dokumentation des Projektes (TODO)  |
-| /src        | Enthält den Source-Code für das Front-End und das Back-End   |
+| Ordner                   | Beschreibung                                                |
+| ------------------------ | ----------------------------------------------------------- |
+| [/docs](/docs/README.md) | Enthält die vollständige Dokumentation des Projektes (TODO) |
+| /src                     | Enthält den Source-Code für das Front-End und das Back-End  |

@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.5.1 Safari/537.36" version="27.0.9" pages="4">
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1" pages="4">
   <diagram name="Basic Layout" id="hugaDJEJDs7H3xgMG3cw">
     <mxGraphModel dx="1125" dy="1237" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -130,27 +130,33 @@
     </mxGraphModel>
   </diagram>
   <diagram id="s1-CG6VQ6uQwbO6Q7PCI" name="Use-Cases">
-    <mxGraphModel dx="717" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bEsiwgWXOgVkAKV7nXCU-10" value="Starter Project" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;align=left;spacingLeft=10;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="180" y="40" width="290" height="260" as="geometry" />
+        <mxCell id="bEsiwgWXOgVkAKV7nXCU-10" value="Starter Project" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;align=left;spacingLeft=10;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="180" y="40" width="290" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="bEsiwgWXOgVkAKV7nXCU-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="bEsiwgWXOgVkAKV7nXCU-1" target="bEsiwgWXOgVkAKV7nXCU-2">
+        <mxCell id="bEsiwgWXOgVkAKV7nXCU-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" parent="1" source="bEsiwgWXOgVkAKV7nXCU-1" target="bEsiwgWXOgVkAKV7nXCU-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bEsiwgWXOgVkAKV7nXCU-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="bEsiwgWXOgVkAKV7nXCU-1" target="bEsiwgWXOgVkAKV7nXCU-3">
+        <mxCell id="bEsiwgWXOgVkAKV7nXCU-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" parent="1" source="bEsiwgWXOgVkAKV7nXCU-1" target="bEsiwgWXOgVkAKV7nXCU-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bEsiwgWXOgVkAKV7nXCU-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+        <mxCell id="ukzRwpNPsQqPe2WR3lkO-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="bEsiwgWXOgVkAKV7nXCU-1" target="ukzRwpNPsQqPe2WR3lkO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEsiwgWXOgVkAKV7nXCU-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="140" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bEsiwgWXOgVkAKV7nXCU-2" value="Add Items" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bEsiwgWXOgVkAKV7nXCU-2" value="Add Items" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="80" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="bEsiwgWXOgVkAKV7nXCU-3" value="Delete Items" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bEsiwgWXOgVkAKV7nXCU-3" value="Delete Items" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="180" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ukzRwpNPsQqPe2WR3lkO-1" value="View Items" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
